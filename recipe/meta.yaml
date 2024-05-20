@@ -27,6 +27,10 @@ requirements:
 test:
   imports:
     - png
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://gitlab.com/drj11/pypng/
@@ -36,6 +40,7 @@ about:
   summary: Pure Python PNG image encoder and decoder
   description: PNG module for Python. PyPNG is written entirely in Python.
   dev_url: https://gitlab.com/drj11/pypng/
+  doc_url: https://gitlab.com/drj11/pypng/-/blob/main/README.md
 
 
 extra:
