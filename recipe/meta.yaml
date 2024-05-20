@@ -19,6 +19,8 @@ requirements:
   host:
     - python
     - pip
+    - setuptools
+    - wheel
   run:
     - python
 
@@ -32,6 +34,9 @@ about:
   license_family: MIT
   license_file: LICENCE
   summary: Pure Python PNG image encoder and decoder
+  description: PNG module for Python. PyPNG is written entirely in Python.
+  dev_url: https://gitlab.com/drj11/pypng/
+
 
 extra:
   recipe-maintainers:
