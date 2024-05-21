@@ -1,6 +1,5 @@
 {% set name = "pypng" %}
 {% set version = "0.20220715.0" %}
-{% set sha256 = "739c433ba96f078315de54c0db975aee537cbc3e1d0ae4ed9aab0ca1e427e2c1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: {{ 739c433ba96f078315de54c0db975aee537cbc3e1d0ae4ed9aab0ca1e427e2c1 }}
 
 build:
   number: 0
